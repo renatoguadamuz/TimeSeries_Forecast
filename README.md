@@ -45,12 +45,12 @@ The testing accuracy is more pertinent because it assesses the ability of the mo
 
 ```
 Training
-         ME  RMSE   MAE   MPE MAPE MASE ACF1 Theil's U
-Linear 0.00 18.56 14.12 -1.24 8.02 1.63 1.00        NA
-Holt   0.00  0.81  0.54  0.00 0.32 0.06 0.01        NA
-ARIMA  0.01  0.63  0.42  0.01 0.24 0.05 0.03        NA
-ETS    0.12  0.70  0.52  0.09 0.31 0.06 0.36        NA
-ANN    0.01  0.95  0.69  0.00 0.39 0.08 0.59        NA
+         ME  RMSE   MAE   MPE MAPE MASE ACF1
+Linear 0.00 18.56 14.12 -1.24 8.02 1.63 1.00
+Holt   0.00  0.81  0.54  0.00 0.32 0.06 0.01
+ARIMA  0.01  0.63  0.42  0.01 0.24 0.05 0.03
+ETS    0.12  0.70  0.52  0.09 0.31 0.06 0.36
+ANN    0.01  0.95  0.69  0.00 0.39 0.08 0.59
 
 Testing
           ME  RMSE   MAE   MPE  MAPE MASE ACF1 Theil's U
